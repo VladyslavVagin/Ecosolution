@@ -1,0 +1,52 @@
+@import "modern-normalize/modern-normalize.css";
+@import url("./fonts/fonts.css");
+
+:root {
+  --hover-effect: 400ms ease;
+  --main-bg: #f3f5fa;
+  --accent-light: #dcefd8;
+  --accent-color: #97d28b;
+  --main-dark: #173d33;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Fira Sans", sans-serif;
+  background: var(--main-bg);
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--main-dark);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  padding: 0;
+  margin: 0;
+}
+
+ul,
+ol {
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
