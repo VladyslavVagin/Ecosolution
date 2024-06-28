@@ -1,5 +1,5 @@
 import React from "react";
-import { Text } from "./TextHero.styled";
+import Text from "../../Common/Text/Text";
 
 const TextHero = () => {
   return (
