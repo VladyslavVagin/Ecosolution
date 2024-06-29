@@ -1,16 +1,18 @@
 import React from "react";
 import TitleValues from "./TitleValues/TitleValues";
 import TextValues from "./TextValues/TextValues";
-import { TitleContainer } from "./MainValues.styled";
+import ListValues from "./ListValues/ListValues";
+import { Section, TitleContainer } from "./MainValues.styled";
 
 const MainValues = () => {
   return (
-    <section>
+    <Section>
       <TitleContainer>
         <TitleValues />
         <TextValues />
       </TitleContainer>
-    </section>
+      <ListValues />
+    </Section>
   );
 };
 

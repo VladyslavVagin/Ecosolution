@@ -1,5 +1,9 @@
 import styled from "styled-components";
 
+export const Section = styled.section`
+  padding-bottom: 36px;
+`;
+
 export const TitleContainer = styled.div`
   display: flex;
   flex-direction: column;
