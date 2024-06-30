@@ -9,6 +9,8 @@
   --main-dark: #173d33;
   --cards-bg: #eaedf1;
   --light-grey: rgba(23, 61, 51, 0.25);
+  --placeholder-color: #bdbdbd;
+  --error-color: #d28b8b;
 }
 
 * {
