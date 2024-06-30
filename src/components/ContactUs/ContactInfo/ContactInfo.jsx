@@ -10,6 +10,7 @@ const ContactInfo = () => {
                 <svg width={24} height={24}>
                     <use xlinkHref={`${sprite}#icon-call`}></use>
                 </svg>
+                <a href="tel:"></a>
             </div>
         </div>
         <div></div>
