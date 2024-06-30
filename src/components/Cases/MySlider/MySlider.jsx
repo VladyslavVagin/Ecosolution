@@ -1,29 +1,40 @@
-import React from "react";
+// @ts-nocheck
+import React, { useState } from "react";
 import Slider from "react-slick";
+import { sliderCards } from '../../../data/sliderCard';
+import CardSlide from "../CardSlide/CardSlide";
+import CurrentShowSlide from "./CurrentShowSlide/CurrentShowSlide";
+import ArrowPrev from "./ArrowPrev/ArrowPrev";
+import ArrowNext from "./ArrowNext/ArrowNext";
+import { SliderContainer } from "./MySlider.styled";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
 const MySlider = () => {
+  const [currentSlide, setCurrentSlide] = useState(1);
+
   const settings = {
-    dots: true,
+    dots: false,
     infinite: true,
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
     adaptiveHeight: true,
     swipeToSlide: true,
-    // nextArrow: <ArrowCustom />,
-    // prevArrow: <ArrowCustom />,
+    nextArrow: <ArrowNext />,
+    prevArrow: <ArrowPrev />,
+    afterChange: (current) => setCurrentSlide(current + 1),
   };
 
   return (
-    <div>
+    <SliderContainer>
       <Slider {...settings}>
-        <div>Slide 1</div>
-        <div>Slide 2</div>
-        <div>Slide 3</div>
+        {sliderCards.map((card) => (
+          <CardSlide key={card.id} card={card} />
+        ))}
       </Slider>
-    </div>
+      <CurrentShowSlide currentSlide={currentSlide} />
+    </SliderContainer>
   );
 };
 
