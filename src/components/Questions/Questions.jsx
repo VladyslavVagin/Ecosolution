@@ -1,13 +1,16 @@
 import React from "react";
 import TitleFAQ from "./TitleFAQ/TitleFAQ";
 import ListQuestions from "./ListQuestions/ListQuestions";
+import ContactButton from "./ContactButton/ContactButton";
+import { Section } from "./Questions.styled";
 
 const Questions = () => {
   return (
-    <section>
+    <Section>
       <TitleFAQ />
       <ListQuestions />
-    </section>
+      <ContactButton />
+    </Section>
   );
 };
 

@@ -5,7 +5,7 @@ import { Section } from "./Cases.styled";
 
 const Cases = () => {
   return (
-    <Section>
+    <Section id="cases">
       <div>
         <TitleCases />
         <MySlider />

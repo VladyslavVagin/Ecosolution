@@ -6,6 +6,7 @@ import MainValues from "./components/MainValues/MainValues";
 import Electricity from "./components/Electricity/Electricity";
 import Cases from "./components/Cases/Cases";
 import Questions from "./components/Questions/Questions";
+import ContactUs from "./components/ContactUs/ContactUs";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
           <Electricity />
           <Cases />
           <Questions />
+          <ContactUs />
         </Container>
       </main>
     </>
