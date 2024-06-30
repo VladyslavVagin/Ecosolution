@@ -8,7 +8,7 @@ import { SectionHero, ContentHero } from "./Hero.styled.jsx";
 
 const Hero = () => {
   return (
-    <SectionHero>
+    <SectionHero id="hero">
         <ContentHero>
           <TitleHero />
           <div>

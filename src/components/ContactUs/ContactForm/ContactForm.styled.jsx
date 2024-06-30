@@ -70,6 +70,8 @@ export const SubmitBtn = styled.button`
   height: 40px;
   background: transparent;
   margin-left: auto;
+  letter-spacing: -0.04em;
+  color: var(--main-dark);
 
   svg {
     transform: rotate(45deg);
