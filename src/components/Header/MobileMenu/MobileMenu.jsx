@@ -1,0 +1,23 @@
+import React from "react";
+import Modal from "../Modal/Modal";
+import Menu from "../Menu/Menu";
+import sprite from "../../../images/icons.svg";
+import { BtnBox, CloseBtn } from "./MobileMenu.styled";
+
+const MobileMenu = ({ fn }) => {
+  return (
+    <Modal fn={fn}>
+      <BtnBox>
+        <CloseBtn onClick={() => fn(false)} type="button">
+          <svg width={20} height={20}>
+            <use xlinkHref={`${sprite}#icon-close`}></use>
+          </svg>
+          close
+        </CloseBtn>
+      </BtnBox>
+      <Menu />
+    </Modal>
+  );
+};
+
+export default MobileMenu;
