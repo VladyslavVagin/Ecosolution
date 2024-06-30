@@ -6,7 +6,7 @@ import { Section, TitleContainer } from "./MainValues.styled";
 
 const MainValues = () => {
   return (
-    <Section>
+    <Section id="about">
       <TitleContainer>
         <TitleValues />
         <TextValues />

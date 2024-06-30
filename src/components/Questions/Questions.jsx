@@ -6,7 +6,7 @@ import { Section } from "./Questions.styled";
 
 const Questions = () => {
   return (
-    <Section>
+    <Section id="faq">
       <TitleFAQ />
       <ListQuestions />
       <ContactButton />

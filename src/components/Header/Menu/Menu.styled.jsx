@@ -15,4 +15,8 @@ export const NavList = styled.nav`
     align-items: center;
     column-gap: 8px;
   }
+
+  .active {
+    color: var(--accent-color);
+  }
 `;
