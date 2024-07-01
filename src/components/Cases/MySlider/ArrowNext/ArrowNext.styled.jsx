@@ -10,4 +10,9 @@ export const ArrowStyled = styled.div`
     fill: transparent;
     stroke: var(--main-dark);
   }
+
+  @media screen and (min-width: 768px) {
+    top: -100px;
+    right: 12px;
+  }
 `;

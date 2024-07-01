@@ -3,11 +3,11 @@ import sprite from "../../../images/icons.svg";
 import { AnswerBox, ItemContainer, QuestionBox } from "./ListItem.styled";
 
 const ListItem = ({ item, isSelected, onSelect }) => {
-  const { question, answer } = item;
+  const { question, answer, id } = item;
 
   return (
     <ItemContainer onClick={onSelect}>
-      <QuestionBox>
+      <QuestionBox id={id.toString()}>
         <span>
           <svg width={16} height={16}>
             <use

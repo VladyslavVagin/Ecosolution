@@ -45,4 +45,8 @@ export const TitleDateContainer = styled.div`
   letter-spacing: -0.04em;
   padding: 12px;
   border-top: 1px solid var(--accent-color);
+
+  @media screen and (min-width: 768px) {
+    font-size: 14px;
+  }
 `;

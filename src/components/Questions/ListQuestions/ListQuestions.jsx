@@ -2,6 +2,7 @@
 import React, { useState } from "react";
 import ListItem from "../ListItem/ListItem";
 import { questionsAnswers } from "../../../data/questionsFAQ";
+import { List } from "./ListQuestions.styled";
 
 const ListQuestions = () => {
   const [selectedQuestion, setSelectedQuestion] = useState(
@@ -13,7 +14,7 @@ const ListQuestions = () => {
   };
 
   return (
-    <div>
+    <List>
       {questionsAnswers.map((item) => (
         <ListItem
           key={item.id}
@@ -22,7 +23,7 @@ const ListQuestions = () => {
           onSelect={() => handleSelect(item.id)}
         />
       ))}
-    </div>
+    </List>
   );
 };
 

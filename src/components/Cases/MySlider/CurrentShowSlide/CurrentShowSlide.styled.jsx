@@ -15,4 +15,9 @@ export const ContainerNumberSlides = styled.div`
   span {
     color: var(--light-grey);
   }
+
+  @media screen and (min-width: 768px){
+    top: -62px;
+    left: 376px;
+  }
 `;
