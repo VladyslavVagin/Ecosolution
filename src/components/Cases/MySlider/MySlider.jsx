@@ -7,7 +7,7 @@ import CardSlide from "../CardSlide/CardSlide";
 import CurrentShowSlide from "./CurrentShowSlide/CurrentShowSlide";
 import ArrowPrev from "./ArrowPrev/ArrowPrev";
 import ArrowNext from "./ArrowNext/ArrowNext";
-import { SliderContainer } from "./MySlider.styled";
+import { SliderContainer, StyledSlide } from "./MySlider.styled";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
@@ -32,7 +32,9 @@ const MySlider = () => {
     <SliderContainer>
       <Slider {...settings}>
         {sliderCards.map((card) => (
-          <CardSlide key={card.id} card={card} />
+          <StyledSlide key={card.id}>
+            <CardSlide card={card} />
+          </StyledSlide>
         ))}
       </Slider>
       <CurrentShowSlide currentSlide={currentSlide} />
