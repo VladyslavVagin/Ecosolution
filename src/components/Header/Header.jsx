@@ -3,7 +3,8 @@ import React, { useState, useEffect } from "react";
 import Logo from "./Logo/Logo";
 import BurgerBtn from "./BurgerBtn/BurgerBtn";
 import MobileMenu from "./MobileMenu/MobileMenu";
-import { HeaderMain, HeaderContainer } from "./Header.styled";
+import Button from "../Common/Button/Button";
+import { HeaderMain, HeaderContainer, ButtonsBox } from "./Header.styled";
 
 const Header = () => {
   const [scrolled, setScrolled] = useState(false);
@@ -20,7 +21,6 @@ const Header = () => {
     document.addEventListener("scroll", handleScroll, { passive: true });
 
     return () => {
-      // cleanup
       document.removeEventListener("scroll", handleScroll);
     };
   }, [scrolled]);
@@ -30,10 +30,13 @@ const Header = () => {
       <HeaderMain data-scrolled={scrolled}>
         <HeaderContainer>
           <Logo />
-          <BurgerBtn fn={setOpenMenu} />
+          <ButtonsBox>
+            <BurgerBtn fn={setOpenMenu} />
+            <Button text="Get in touch" link="#contacts"/>
+          </ButtonsBox>
         </HeaderContainer>
       </HeaderMain>
-      {openMenu && (<MobileMenu fn={setOpenMenu} />)}
+      {openMenu && <MobileMenu fn={setOpenMenu} />}
     </>
   );
 };

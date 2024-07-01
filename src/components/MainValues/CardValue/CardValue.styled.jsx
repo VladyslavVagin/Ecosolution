@@ -5,6 +5,10 @@ export const CardContainer = styled.div`
   height: 197px;
   background: var(--cards-bg);
   padding: 13px 16px 0;
+
+  @media screen and (min-width: 768px) {
+    padding: 12px;
+  }
 `;
 
 export const TitleContainer = styled.div`
@@ -26,6 +30,10 @@ export const TitleContainer = styled.div`
   svg {
     fill: var(--cards-bg);
     stroke: var(--main-dark);
+  }
+
+  @media screen and (min-width: 768px) {
+    margin-bottom: 51px;
   }
 `;
 

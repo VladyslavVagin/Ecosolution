@@ -13,4 +13,19 @@ export const InfoContainer = styled.div`
   a {
     color: var(--main-dark);
   }
+
+  p {
+    display: none;
+  }
+
+  @media screen and (min-width: 768px) {
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 16px;
+    margin-bottom: 40px;
+
+    p {
+      display: unset;
+    }
+  }
 `;

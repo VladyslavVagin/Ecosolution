@@ -17,11 +17,20 @@ export const ModalContainer = styled.div`
   width: 90%;
   height: 90%;
   position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  top: 36px;
+  right: 20px;
   padding: 24px 19px;
   backdrop-filter: blur(25px);
   background: rgba(23, 61, 51, 0.75);
+  margin-left: auto;
   animation: appear 600ms ease 1;
+
+  @media screen and (min-width: 480px) {
+    max-width: 320px
+  }
+
+  @media screen and (min-width: 768px) {
+    right: 30px;
+    max-height: 701px;
+  }
 `;

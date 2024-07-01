@@ -1,7 +1,8 @@
 // @ts-nocheck
 import React, { useState } from "react";
+import { useMediaQuery } from "react-responsive";
 import Slider from "react-slick";
-import { sliderCards } from '../../../data/sliderCard';
+import { sliderCards } from "../../../data/sliderCard";
 import CardSlide from "../CardSlide/CardSlide";
 import CurrentShowSlide from "./CurrentShowSlide/CurrentShowSlide";
 import ArrowPrev from "./ArrowPrev/ArrowPrev";
@@ -11,13 +12,14 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
 const MySlider = () => {
-  const [currentSlide, setCurrentSlide] = useState(1);
+  const isTablet = useMediaQuery({ minWidth: 768 });
+  const [currentSlide, setCurrentSlide] = useState(isTablet ? 2 : 1);
 
   const settings = {
     dots: false,
     infinite: true,
     speed: 500,
-    slidesToShow: 1,
+    slidesToShow: isTablet ? 2 : 1,
     slidesToScroll: 1,
     adaptiveHeight: true,
     swipeToSlide: true,

@@ -6,7 +6,8 @@ export const HeaderMain = styled.header`
   top: 0;
   width: 100%;
   padding: 36px 0;
-  background-color: ${({ 'data-scrolled': scrolled }) => (scrolled ? "var(--white-color)" : "var(--main-bg)")};
+  background-color: ${({ "data-scrolled": scrolled }) =>
+    scrolled ? "var(--white-color)" : "var(--main-bg)"};
   transition: background-color 0.3s ease;
   z-index: 100;
 `;
@@ -18,4 +19,24 @@ export const HeaderContainer = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-between;
+
+  @media screen and (min-width: 768px) {
+    max-width: 768px;
+    padding: 0 30px;
+  }
+`;
+
+export const ButtonsBox = styled.div`
+  display: flex;
+  align-items: center;
+  column-gap: 12px;
+
+  a {
+    display: none;
+
+    @media screen and (min-width: 768px){
+      display: flex;
+      width: 140px;
+    }
+  }
 `;

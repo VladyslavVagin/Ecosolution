@@ -5,4 +5,8 @@ export const TitleContainer = styled.div`
   max-width: 286px;
   text-align: center;
   margin: 0 auto;
+
+  @media screen and (min-width: 768px) {
+    max-width: 368px;
+  }
 `;

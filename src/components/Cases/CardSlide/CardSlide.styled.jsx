@@ -3,6 +3,10 @@ import styled from "styled-components";
 export const SlideContainer = styled.div`
   background: var(--cards-bg);
   overflow: hidden;
+
+  @media screen and (min-width: 768px) {
+    margin: 0 12px;
+  }
 `;
 
 export const SlideContent = styled.div`

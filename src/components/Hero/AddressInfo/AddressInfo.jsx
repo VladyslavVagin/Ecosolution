@@ -6,6 +6,7 @@ const AddressInfo = () => {
    <InfoContainer>
        <address>79005, Ukraine, Lvivstreet. Shota Rustaveli, 7</address>
        <a href="mailto:office@ecosolution.com">office@ecosolution.com</a>
+       <p>ecosolution &copy; 2023</p>
    </InfoContainer>
   )
 }

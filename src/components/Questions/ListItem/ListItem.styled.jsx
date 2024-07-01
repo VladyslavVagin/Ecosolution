@@ -29,5 +29,5 @@ export const AnswerBox = styled.div`
     text-align: justify;
     margin-left: auto;
     margin-top: 16px;
-    animation: slideIn 800ms ease 1;
+    animation: slideIn 400ms ease 1;
 `
