@@ -12,6 +12,8 @@ export const Button = styled.button`
   justify-content: center;
 
   svg {
+    min-width: 16px;
+    min-height: 16px;
     stroke: var(--main-dark);
   }
 `;
