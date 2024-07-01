@@ -25,7 +25,17 @@ const MySlider = () => {
     swipeToSlide: true,
     nextArrow: <ArrowNext />,
     prevArrow: <ArrowPrev />,
-    afterChange: (current) => setCurrentSlide(current + 1),
+    afterChange: (current) => {
+      if(!isTablet) {
+        setCurrentSlide(current + 1);
+      } else {
+        if(current + 1 < 5) {
+          setCurrentSlide(current + 2);
+        } else {
+          setCurrentSlide(1);
+        }
+      }
+    },
   };
 
   return (
