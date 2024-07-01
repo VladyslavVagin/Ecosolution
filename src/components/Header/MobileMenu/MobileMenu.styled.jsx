@@ -21,3 +21,26 @@ export const CloseBtn = styled.button`
   letter-spacing: -0.04em;
   padding: 0;
 `;
+
+export const SocialMediaBox = styled.div`
+  position: absolute;
+  bottom: 24px;
+  left: 24px;
+  width: 56px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+
+  a {
+    svg {
+      stroke: var(--white-color);
+    }
+
+    &:first-of-type {
+      svg {
+        fill: var(--white-color);
+      }
+    }
+  }
+`;

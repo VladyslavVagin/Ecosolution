@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const SectionHero = styled.section`
-  padding-top: 110px;
+  padding-top: 189px;
   padding-bottom: 36px;
 `;
 

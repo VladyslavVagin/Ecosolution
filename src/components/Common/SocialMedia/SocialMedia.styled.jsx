@@ -11,4 +11,10 @@ export const LinkSocial = styled.a`
     stroke: var(--main-dark);
     fill: none;
   }
+
+  &:first-of-type {
+      svg {
+        fill: var(--main-dark);
+      }
+    }
 `;

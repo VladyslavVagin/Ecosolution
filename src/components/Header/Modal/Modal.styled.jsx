@@ -9,13 +9,12 @@ export const Backdrop = styled.div`
   z-index: 101;
   backdrop-filter: blur(4px);
   background: rgba(23, 61, 51, 0.25);
+  animation: appear 400ms ease 1;
 `;
 
 export const ModalContainer = styled.div`
   border-radius: 25px;
-  min-height: 100px;
-  max-width: 320px;
-  width: 100%;
+  width: 90%;
   height: 90%;
   position: absolute;
   top: 50%;
@@ -24,4 +23,5 @@ export const ModalContainer = styled.div`
   padding: 24px 19px;
   backdrop-filter: blur(25px);
   background: rgba(23, 61, 51, 0.75);
+  animation: appear 600ms ease 1;
 `;
