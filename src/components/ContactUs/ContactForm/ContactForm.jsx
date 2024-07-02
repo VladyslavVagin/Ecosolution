@@ -19,7 +19,6 @@ const ContactForm = () => {
   };
 
   return (
-    <div>
       <Form onSubmit={handleSubmit(onSubmit)}>
         <Label htmlFor="name">
           *&nbsp;Full name:
@@ -62,7 +61,6 @@ const ContactForm = () => {
           </svg>
         </SubmitBtn>
       </Form>
-    </div>
   );
 };
 

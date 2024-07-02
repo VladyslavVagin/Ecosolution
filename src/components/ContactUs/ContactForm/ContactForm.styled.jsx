@@ -8,6 +8,10 @@ export const Form = styled.form`
   row-gap: 28px;
   padding: 36px 12px;
   background: var(--cards-bg);
+
+  @media screen and (min-width: 768px) {
+    width: 342px;
+  }
 `;
 
 export const Label = styled.label`

@@ -14,5 +14,6 @@ export const ArrowStyled = styled.div`
   @media screen and (min-width: 768px) {
     top: -100px;
     right: 12px;
+    cursor: pointer;
   }
 `;
