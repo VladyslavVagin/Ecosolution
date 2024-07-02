@@ -14,4 +14,7 @@ export const List = styled.div`
       grid-column-end: span 2;
     }
   }
+
+  // in Figma grid-gap 48px for 1440px , but in technical requirements I should make for 1280px... 
+  // so I leave 24px for 768px and 1280px
 `;

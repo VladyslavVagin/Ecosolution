@@ -9,6 +9,13 @@ export const CardContainer = styled.div`
   @media screen and (min-width: 768px) {
     padding: 12px;
   }
+
+  @media screen and (min-width: 1280px) {
+    width: 252px;
+    min-width: 252px;
+    height: 302px;
+    padding: 48px 16px 0px 16px;
+  }
 `;
 
 export const TitleContainer = styled.div`
@@ -35,6 +42,21 @@ export const TitleContainer = styled.div`
   @media screen and (min-width: 768px) {
     margin-bottom: 51px;
   }
+
+  @media screen and (min-width: 1280px) {
+    margin-bottom: 94px;
+
+    h3 {
+      font-size: 32px;
+    }
+
+    svg {
+      width: 24px;
+      height: 24px;
+      min-width: 24px;
+      min-height: 24px;
+    }
+  }
 `;
 
 export const TextCard = styled.p`
@@ -43,4 +65,9 @@ export const TextCard = styled.p`
   text-align: justify;
   padding-top: 12px;
   border-top: 1px solid var(--accent-color);
+
+  @media screen and (min-width: 1280px) {
+    font-size: 16px;
+    padding-top: 24px;
+  }
 `;

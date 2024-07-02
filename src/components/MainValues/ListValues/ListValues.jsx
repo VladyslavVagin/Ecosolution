@@ -11,8 +11,8 @@ const ListValues = () => {
     <List>
       <CardValue card={cards[0]} key={cards[0].id} />
       <CardValue card={cards[1]} key={cards[1].id} />
-      <ImageSun />
       <ImageWind />
+      <ImageSun />
       <CardValue card={cards[2]} key={cards[2].id} />
       <CardValue card={cards[3]} key={cards[3].id} />
     </List>
