@@ -22,6 +22,10 @@ export const Numbers = styled.span`
   @media screen and (min-width: 768px) {
     font-size: 100px;
   }
+
+  @media screen and (min-width: 1280px) {
+    font-size: 164px;
+  }
 `;
 
 export const Kilowatt = styled.span`
@@ -33,5 +37,9 @@ export const Kilowatt = styled.span`
   @media screen and (min-width: 768px) {
     font-size: 28px;
     line-height: 1.71;
+  }
+
+  @media screen and (min-width: 1280px) {
+    font-size: 48px;
   }
 `;

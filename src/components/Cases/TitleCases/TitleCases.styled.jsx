@@ -12,6 +12,11 @@ export const TitleCasesStyled = styled.div`
     justify-content: space-between;
     margin-bottom: 36px;
   }
+
+  @media screen and (min-width: 1280px) {
+    max-width: 538px;
+    margin-bottom: 120px;
+  }
 `;
 
 export const VerticalLine = styled.div`
@@ -22,5 +27,10 @@ export const VerticalLine = styled.div`
     width: 1px;
     height: 65px;
     background: var(--accent-color);
+  }
+
+  @media screen and (min-width: 1280px) {
+    height: 96px;
+    margin-left: 184px;
   }
 `;

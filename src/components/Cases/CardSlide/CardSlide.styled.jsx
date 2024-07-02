@@ -9,6 +9,12 @@ export const SlideContainer = styled.div`
     max-width: 342px;
     height: 322px;
   }
+
+  @media screen and (min-width: 1280px) {
+    min-width: 520px;
+    max-width: 520px;
+    height: 470px;
+  }
 `;
 
 export const SlideContent = styled.div`
@@ -34,6 +40,15 @@ export const SlideContent = styled.div`
       font-size: 20px;
     }
   }
+
+  @media screen and (min-width: 1280px) {
+    column-gap: 83px;
+    padding: 36px 16px;
+
+    p {
+      font-size: 24px;
+    }
+  }
 `;
 
 export const TitleDateContainer = styled.div`
@@ -48,5 +63,10 @@ export const TitleDateContainer = styled.div`
 
   @media screen and (min-width: 768px) {
     font-size: 14px;
+  }
+
+  @media screen and (min-width: 1280px) {
+    font-size: 16px;
+    padding: 24px 16px 36px;
   }
 `;

@@ -9,4 +9,8 @@ export const VerticalLine = styled.div`
   @media screen and (min-width: 768px) {
     height: 87px;
   }
+
+  @media screen and (min-width: 1280px) {
+    margin: 16px auto 17px auto;
+  }
 `;

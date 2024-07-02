@@ -20,4 +20,9 @@ export const ContainerNumberSlides = styled.div`
     top: -62px;
     left: 376px;
   }
+
+  @media screen and (min-width: 1280px) {
+    top: -152px;
+    left: 692px;
+  }
 `;
