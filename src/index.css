@@ -76,7 +76,7 @@ address {
     opacity: 0;
     transform: translateY(100%);
   }
-  50% {
+  30% {
     opacity: 0;
   }
   100% {

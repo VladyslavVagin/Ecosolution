@@ -18,6 +18,7 @@ export const FlexContainer = styled.div`
   @media screen and (min-width: 768px) {
     max-width: 100%;
     column-gap: unset;
+    padding: 24px 0 16px 0;
   }
 `;
 

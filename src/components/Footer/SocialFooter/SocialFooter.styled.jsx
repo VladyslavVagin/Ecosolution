@@ -12,4 +12,9 @@ export const GeneralContainer = styled.div`
       color: var(--main-dark);
     }
   }
+
+  @media screen and (min-width: 768px) {
+    flex-direction: row;
+    justify-content: space-between;
+  }
 `;
