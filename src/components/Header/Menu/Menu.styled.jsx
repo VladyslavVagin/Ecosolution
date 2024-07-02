@@ -19,4 +19,10 @@ export const NavList = styled.nav`
   .active {
     color: var(--accent-color);
   }
+
+  @media screen and (min-width: 1280px) {
+    a {
+      cursor: pointer;
+    }
+  }
 `;

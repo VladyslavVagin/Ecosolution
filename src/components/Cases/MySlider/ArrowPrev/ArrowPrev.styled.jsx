@@ -26,6 +26,13 @@ export const ArrowStyled = styled.div`
       height: 84px;
       min-width: 84px;
       min-height: 84px;
+      transition: stroke var(--hover-effect);
+    }
+
+    &:hover {
+      svg {
+        stroke: var(--accent-color);
+      }
     }
   }
 `;

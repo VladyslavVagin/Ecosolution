@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const Button = styled.button`
   width: 40px;
   height: 39px;
-  background: var(--accent-light);
+  background-color: var(--accent-light);
   border: none;
   border-radius: 50%;
   outline: none;
@@ -15,5 +15,13 @@ export const Button = styled.button`
     min-width: 16px;
     min-height: 16px;
     stroke: var(--main-dark);
+  }
+
+  @media screen and (min-width: 1280px) {
+    transition: background-color var(--hover-effect);
+    
+    &:hover {
+      background-color: var(--accent-color);
+    }
   }
 `;
