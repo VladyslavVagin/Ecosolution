@@ -11,7 +11,12 @@ export const Title = styled.h1`
   margin-right: auto;
 
   @media screen and (min-width: 768px) {
-    font-size: 48px;
     max-width: 290px;
+    font-size: 48px;
+  }
+
+  @media screen and (min-width: 1280px) {
+    max-width: 485px;
+    font-size: 64px;
   }
 `;

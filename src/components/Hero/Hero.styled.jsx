@@ -8,6 +8,11 @@ export const SectionHero = styled.section`
     padding-top: 240px;
     padding-bottom: 100px;
   }
+
+  @media screen and (min-width: 1280px) {
+    padding-top: 264px;
+    padding-bottom: 123px;
+  }
 `;
 
 export const ContentHero = styled.div`
@@ -39,5 +44,18 @@ export const ContentHero = styled.div`
       border-bottom: none;
       padding-bottom: 0;
     }
+  }
+
+  @media screen and (min-width: 1280px) {
+    div {
+      row-gap: 20px;
+    }
+  }
+`;
+
+export const TextContainer = styled.div`
+  @media screen and (min-width: 1280px) {
+    min-width: 363px;
+    margin-right: 96px;
   }
 `;

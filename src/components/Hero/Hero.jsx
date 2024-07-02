@@ -4,17 +4,17 @@ import TextHero from "./TextHero/TextHero.jsx";
 import LearnMoreBtn from "./LearnMoreBtn/LearnMoreBtn.jsx";
 import AddressInfo from "./AddressInfo/AddressInfo.jsx";
 import HeroImage from "./HeroImage/HeroImage.jsx";
-import { SectionHero, ContentHero } from "./Hero.styled.jsx";
+import { SectionHero, ContentHero, TextContainer } from "./Hero.styled.jsx";
 
 const Hero = () => {
   return (
     <SectionHero id="hero">
         <ContentHero>
           <TitleHero />
-          <div>
+          <TextContainer>
             <TextHero />
             <LearnMoreBtn /> 
-          </div>
+          </TextContainer>
         </ContentHero>
         <AddressInfo />
         <HeroImage />

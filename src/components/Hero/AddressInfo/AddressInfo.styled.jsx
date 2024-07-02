@@ -28,4 +28,13 @@ export const InfoContainer = styled.div`
       display: unset;
     }
   }
+
+  @media screen and (min-width: 1280px) {
+    margin-top: 12px;
+    margin-bottom: 36px;
+
+    a {
+      margin-left: 154px;
+    }
+  }
 `;

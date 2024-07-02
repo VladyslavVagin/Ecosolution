@@ -11,4 +11,8 @@ export const TitleH2 = styled.h2`
   @media screen and (min-width: 768px) {
     font-size: 36px;
   }
+
+  @media screen and (min-width: 1280px) {
+    font-size: 48px;
+  }
 `

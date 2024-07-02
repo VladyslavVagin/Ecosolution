@@ -21,6 +21,10 @@ export const TitleContainer = styled.div`
     justify-content: space-between;
     margin-bottom: 100px;
   }
+
+  @media screen and (min-width: 1280px){
+    margin-bottom: 122px;
+  }
 `;
 
 export const TextContainer = styled.div`
@@ -28,5 +32,10 @@ export const TextContainer = styled.div`
     width: 353px;
     padding-left: 11px;
     border-left: 1px solid var(--accent-color);
+  }
+
+  @media screen and (min-width: 1280px) {
+    width: 559px;
+    padding-left: 100px;
   }
 `;
