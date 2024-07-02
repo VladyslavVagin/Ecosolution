@@ -106,5 +106,16 @@ export const SubmitBtn = styled.button`
 
   svg {
     transform: rotate(45deg);
+    fill: var(--accent-color);
+    stroke: var(--main-dark);
+  }
+
+  @media screen and (min-width: 1280px) {
+    transition: all var(--hover-effect);
+
+    &:hover {
+      background: var(--main-dark);
+      color: var(--accent-color);
+    }
   }
 `;

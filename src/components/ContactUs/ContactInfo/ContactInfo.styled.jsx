@@ -32,29 +32,32 @@ export const Content = styled.div`
     font-weight: 400;
   }
 
-  address,
-  div {
+  a {
     display: flex;
     align-items: center;
     justify-content: flex-start;
     column-gap: 8px;
-
-    a,
-    p {
-      font-size: 20px;
-      letter-spacing: -0.04em;
-      color: var(--main-dark);
-    }
+    font-size: 20px;
+    letter-spacing: -0.04em;
+    color: var(--main-dark);
   }
 
   @media screen and (min-width: 1280px) {
     max-width: 466px;
     row-gap: 16px;
 
-    address, div {
-      a, p {
-        font-size: 24px;
+    a {
+      font-size: 24px;
+
+      &:hover {
+        svg {
+          stroke: var(--accent-color);
+        }
       }
+    }
+
+    svg {
+      transition: all var(--hover-effect);
     }
   }
 `;
@@ -67,8 +70,13 @@ export const Icon = styled.svg`
 `;
 
 export const SocialMediaContainer = styled.div`
- @media screen and (min-width: 1280px) {
-  max-width: 56px;
-  max-height: 24px;
- }
-`
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  column-gap: 8px;
+
+  @media screen and (min-width: 1280px) {
+    max-width: 56px;
+    max-height: 24px;
+  }
+`;

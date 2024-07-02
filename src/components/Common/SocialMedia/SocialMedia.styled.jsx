@@ -13,8 +13,28 @@ export const LinkSocial = styled.a`
   }
 
   &:first-of-type {
+    svg {
+      fill: var(--main-dark);
+    }
+  }
+
+  @media screen and (min-width: 1280px) {
+    svg {
+      transition: all var(--hover-effect);
+    }
+
+    &:hover {
       svg {
-        fill: var(--main-dark);
+        stroke: var(--accent-color);
       }
     }
+
+    &:first-of-type {
+      &:hover {
+        svg {
+          fill: var(--accent-color);
+        }
+      }
+    }
+  }
 `;

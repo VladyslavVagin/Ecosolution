@@ -13,6 +13,11 @@ export const FlexContainer = styled.div`
   > a {
     transform: rotate(-45deg);
     margin-top: 6px;
+
+    svg {
+      stroke: var(--main-dark);
+      fill: var(--accent-color);
+    }
   }
 
   @media screen and (min-width: 768px) {
@@ -23,6 +28,19 @@ export const FlexContainer = styled.div`
 
   @media screen and (min-width: 1280px) {
     padding: 40px 0 16px 0;
+
+    > a {
+      svg {
+        transition: all var(--hover-effect);
+      }
+
+      &:hover {
+        svg {
+          fill: var(--main-dark);
+          stroke: var(--accent-color);
+        }
+      }
+    }
   }
 `;
 
