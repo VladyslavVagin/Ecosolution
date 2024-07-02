@@ -15,4 +15,14 @@ export const FlexContainer = styled.div`
     right: 44px;
     margin-top: 0;
   }
+
+  @media screen and (min-width: 1280px) {
+    width: 500px;
+    bottom: 120px;
+    right: 0;
+
+   > p {
+      font-size: 24px;
+    }
+  }
 `;

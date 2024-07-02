@@ -22,7 +22,27 @@ export const QuestionBox = styled.div`
   }
 
   @media screen and (min-width: 768px) {
+    column-gap: 16px;
     margin-top: ${({ id }) => (id === "1" ? "0" : "16px")};
+
+    span {
+      svg {
+        width: 28px;
+        height: 28px;
+        min-width: 28px;
+        min-height: 28px;
+      }
+    }
+  }
+
+  @media screen and (min-width: 1280px) {
+    column-gap: 24px;
+    padding-top: 24px;
+    margin-top: ${({ id }) => (id === "1" ? "0" : "24px")};
+
+    p {
+      font-size: 24px;
+    }
   }
 `;
 
@@ -34,4 +54,14 @@ export const AnswerBox = styled.div`
   margin-left: auto;
   margin-top: 16px;
   animation: slideIn 800ms ease 1;
+
+  @media screen and (min-width: 768px) {
+    width: calc(100% - 44px);
+  }
+
+  @media screen and (min-width: 1280px) {
+    width: calc(100% - 52px);
+    font-size: 16px;
+    margin-top: 24px;
+  }
 `;

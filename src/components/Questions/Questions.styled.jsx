@@ -7,6 +7,10 @@ export const Section = styled.section`
     position: relative;
     padding-bottom: 100px;
   }
+
+  @media screen and (min-width: 1280px){
+    padding-bottom: 120px;
+  }
 `;
 
 export const FlexContainer = styled.div`
@@ -16,5 +20,9 @@ export const FlexContainer = styled.div`
     align-items: flex-start;
     justify-content: center;
     column-gap: 24px;
+  }
+
+  @media screen and (min-width: 1280px) {
+    column-gap: 154px;
   }
 `;

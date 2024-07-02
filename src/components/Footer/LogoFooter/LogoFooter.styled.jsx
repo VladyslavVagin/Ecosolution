@@ -20,6 +20,10 @@ export const FlexContainer = styled.div`
     column-gap: unset;
     padding: 24px 0 16px 0;
   }
+
+  @media screen and (min-width: 1280px) {
+    padding: 40px 0 16px 0;
+  }
 `;
 
 export const UpperBox = styled.div`
@@ -47,5 +51,9 @@ export const SocialContainer = styled.div`
     width: 56px;
     padding-left: 0;
     margin-left: 97px;
+  }
+
+  @media screen and (min-width: 1280px) {
+    margin-left: 372px;
   }
 `;

@@ -17,4 +17,12 @@ export const GeneralContainer = styled.div`
     flex-direction: row;
     justify-content: space-between;
   }
+
+  @media screen and (min-width: 1280px) {
+    div {
+      a {
+        margin-left: 202px;
+      }
+    }
+  }
 `;

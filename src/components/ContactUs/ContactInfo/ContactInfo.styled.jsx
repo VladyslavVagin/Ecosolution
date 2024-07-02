@@ -7,6 +7,15 @@ export const GeneralContainer = styled.div`
   flex-direction: column;
   align-items: flex-start;
   row-gap: 24px;
+
+  @media screen and (min-width: 768px) {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  @media screen and (min-width: 1280px) {
+    row-gap: 32px;
+  }
 `;
 
 export const Content = styled.div`
@@ -37,6 +46,17 @@ export const Content = styled.div`
       color: var(--main-dark);
     }
   }
+
+  @media screen and (min-width: 1280px) {
+    max-width: 466px;
+    row-gap: 16px;
+
+    address, div {
+      a, p {
+        font-size: 24px;
+      }
+    }
+  }
 `;
 
 export const Icon = styled.svg`
@@ -45,3 +65,10 @@ export const Icon = styled.svg`
   fill: none;
   stroke: var(--main-dark);
 `;
+
+export const SocialMediaContainer = styled.div`
+ @media screen and (min-width: 1280px) {
+  max-width: 56px;
+  max-height: 24px;
+ }
+`

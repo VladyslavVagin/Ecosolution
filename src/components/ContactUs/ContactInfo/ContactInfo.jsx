@@ -1,7 +1,7 @@
 import React from "react";
 import sprite from "../../../images/icons.svg";
 import SocialMedia from "../../Common/SocialMedia/SocialMedia";
-import { Content, GeneralContainer, Icon } from "./ContactInfo.styled";
+import { Content, GeneralContainer, Icon, SocialMediaContainer } from "./ContactInfo.styled";
 
 const ContactInfo = () => {
   return (
@@ -41,9 +41,9 @@ const ContactInfo = () => {
       </Content>
       <Content>
         <p>Social Networks:</p>
-        <div>
+        <SocialMediaContainer>
           <SocialMedia />
-        </div>
+        </SocialMediaContainer>
       </Content>
     </GeneralContainer>
   );

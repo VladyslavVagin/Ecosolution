@@ -12,6 +12,11 @@ export const Form = styled.form`
   @media screen and (min-width: 768px) {
     width: 342px;
   }
+
+  @media screen and (min-width: 1280px) {
+    width: 506px;
+    padding: 48px;
+  }
 `;
 
 export const Label = styled.label`
@@ -50,6 +55,28 @@ export const Label = styled.label`
 
   textarea {
     height: 147px;
+  }
+
+  @media screen and (min-width: 1280px) {
+    row-gap: 12px;
+
+    textarea,
+    input {
+      font-size: 20px;
+
+      &::placeholder {
+        font-size: 20px;
+      }
+    }
+
+    input {
+      height: 33px;
+    }
+
+    textarea {
+      height: 149px;
+      margin-bottom: 8px;
+    }
   }
 `;
 

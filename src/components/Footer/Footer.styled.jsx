@@ -8,4 +8,8 @@ export const FooterContainer = styled.footer`
     padding-top: 100px;
     padding-bottom: 40px;
   }
+
+  @media screen and (min-width: 1280px) {
+    padding-top: 120px;
+  }
 `;
