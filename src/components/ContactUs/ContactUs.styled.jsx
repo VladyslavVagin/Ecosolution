@@ -1,4 +1,7 @@
 import styled from "styled-components";
+import { motion } from "framer-motion";
+
+export const Section = styled(motion.section)``;
 
 export const FlexContainer = styled.div`
   @media screen and (min-width: 768px) {

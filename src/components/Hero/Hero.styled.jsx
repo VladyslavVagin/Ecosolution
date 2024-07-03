@@ -1,6 +1,7 @@
 import styled from "styled-components";
+import { motion } from "framer-motion";
 
-export const SectionHero = styled.section`
+export const SectionHero = styled(motion.section)`
   padding-top: 189px;
   padding-bottom: 36px;
 

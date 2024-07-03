@@ -1,6 +1,8 @@
+// @ts-nocheck
 import styled from "styled-components";
+import { motion } from "framer-motion";
 
-export const Section = styled.section`
+export const Section = styled(motion.section)`
   padding-bottom: 36px;
 
   @media screen and (min-width: 768px) {

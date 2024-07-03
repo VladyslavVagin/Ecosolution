@@ -1,4 +1,7 @@
 import styled from "styled-components";
+import { motion } from "framer-motion";
+
+export const SectionElectricity = styled(motion.section)``;
 
 export const VerticalLine = styled.div`
   width: 1px;
