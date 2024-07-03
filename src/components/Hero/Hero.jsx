@@ -13,8 +13,8 @@ const Hero = () => {
       opacity: 1,
       y: 0,
       transition: {
-        duration: 0.7,
-        delay: 0.5,
+        duration: 0.9,
+        delay: 0.2,
       },
     },
   };

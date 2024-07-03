@@ -19,7 +19,10 @@ const ContactInfo = () => {
           </Icon>
           38 (098) 12 34 567
         </a>
-        <a href="tel:380931234567">
+        <a
+          href="tel:380931234567"
+          aria-label="Phone number for calling Ecosolution"
+        >
           <Icon width={24} height={24}>
             <use xlinkHref={`${sprite}#icon-call`}></use>
           </Icon>
@@ -28,7 +31,10 @@ const ContactInfo = () => {
       </Content>
       <Content>
         <p>Email:</p>
-        <a href="mailto:office@ecosolution.com">
+        <a
+          href="mailto:office@ecosolution.com"
+          aria-label="For write and send email to Ecosolution"
+        >
           <Icon width={24} height={24}>
             <use xlinkHref={`${sprite}#icon-mail`}></use>
           </Icon>
@@ -38,7 +44,12 @@ const ContactInfo = () => {
       <Content>
         <p>Address:</p>
         <address>
-          <a href="https://maps.app.goo.gl/kbqRNic8UJtqqZdm7">
+          <a
+            href="https://maps.app.goo.gl/kbqRNic8UJtqqZdm7"
+            target="_blank"
+            rel="noreferrer"
+            aria-label="Show on Google Maps address of Ecosolution company"
+          >
             <Icon width={24} height={24}>
               <use xlinkHref={`${sprite}#icon-map`}></use>
             </Icon>
