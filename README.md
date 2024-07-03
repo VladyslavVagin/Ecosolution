@@ -1,70 +1,59 @@
-# Getting Started with Create React App
+<font size="36">**Frontend Test Task**</font>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**Task:** Implement the Ecosolution landing page according to the technical specifications.
 
-## Available Scripts
+**Deadline:**
 
-In the project directory, you can run:
+**07.07.2024 23:59**
 
-### `npm start`
+**Technologies:**
+ - React
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+**Materials:**
+1. <a href="https://www.figma.com/file/pTbhAbEXjsofeQHmtIE2tK/Ecosolution?type=design&node-id=136%3A1944&mode=design&t=dlfJhTEVY9V6T0vg-1" target="_blank">Design Mockup (Final tab)</a> 
+2. Technical Specifications
+   
+**Components and Requirements:**
+- Header:
+Fixed Header:
+Contains the logo, burger menu, and "Get in touch" (except on mobile).
+Changes color on scroll (refer to the UI kit).
+Clicking "Get in touch" scrolls smoothly to the "Contact Us" section.
+Burger Menu:
+Contains a close button, navigation menu, and social media links.
+Each menu item is clickable and should scroll smoothly to the corresponding section on the page.
+The height of the burger menu should be the full screen, with padding from the screen edges at the bottom the same as the top, as shown in the mockup.
+On tablets, the burger menu looks the same as the desktop version.
+- Main Section:
+Clicking "Learn more" scrolls smoothly to the "Cases" section.
+- About (Values) Section:
+Use CSS Grid to layout the list of values.
+On mobile, only the values are displayed, not the photos.
+- Electricity Section:
+To earn extra points, implement an automatic counter that increments by 1 per second instead of static numbers. This task is optional.
+- Cases Section:
+Infinite slider.
+The slide can be changed by clicking the corresponding buttons or dragging.
+Clicking the button should scroll one slide at a time.
+- FAQ Section:
+By default, the first answer is open.
+Only one answer can be open at a time.
+The answers are found in the comments in the mockup.
+Clicking "Contact Us" scrolls smoothly to the "Contact Us" section.
+- Contact Us Section:
+The form must be validated.
+The form fields "Full name", "E-mail", and "Phone" are required; the "Message" field is optional.
+After simulating form submission, the user should be informed that the form has been sent.
+- Footer:
+Contains an arrow that scrolls smoothly to the "Main" section when clicked.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+**Acceptance Criteria:**
+- Fixed Layout in Pixels: The layout should be in fixed pixels.
+- Semantic and Valid HTML: Ensure semantic and valid HTML, including basic accessibility settings (a11y).
+- Responsive and Cross-browser Compatibility:
+- Mobile: from 360px to 480px (responsive layout, should stretch).
+- Tablet: 768px.
+- Desktop: 1280px.
+- Mobile-First Approach: Use a mobile-first design approach.
+- Clean Code: Ensure clean code with maintained formatting. It is recommended to use ESLint/Prettier.
+- Component-Based Architecture: Break down the code into separate components.
