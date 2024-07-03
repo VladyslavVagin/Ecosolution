@@ -24,6 +24,7 @@ const ImageSun = () => {
       <img
         src={imgSunEnergy1x}
         alt="Sun energy generation with solar panels"
+        loading='lazy'
       />
     </picture>
   </ImageContainer>

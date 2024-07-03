@@ -24,6 +24,7 @@ const ImageWind = () => {
         <img
           src={imgWindEnergy1x}
           alt="Wind energy generation with wind turbines"
+          loading='lazy'
         />
       </picture>
     </ImageContainer>
