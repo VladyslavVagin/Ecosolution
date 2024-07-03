@@ -5,7 +5,14 @@ const SocialFooter = () => {
   return (
     <GeneralContainer>
       <address>
-        <p>79005, Ukraine, Lvivstreet. Shota Rustaveli, 7</p>
+        <a
+          href="https://maps.app.goo.gl/kbqRNic8UJtqqZdm7"
+          target="_blank"
+          rel="noreferrer"
+          aria-label="Show on Google Maps address of Ecosolution company"
+        >
+          79005, Ukraine, Lvivstreet. Shota Rustaveli, 7
+        </a>
       </address>
       <div>
         <a href="mailto:office@ecosolution.com">office@ecosolution.com</a>

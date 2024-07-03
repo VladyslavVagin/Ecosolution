@@ -101,6 +101,9 @@ export const SubmitBtn = styled.button`
   height: 40px;
   background: transparent;
   margin-left: auto;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.12;
   letter-spacing: -0.04em;
   color: var(--main-dark);
 

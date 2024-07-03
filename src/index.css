@@ -12,6 +12,7 @@
   --placeholder-color: #bdbdbd;
   --error-color: #d28b8b;
   --white-color: #fff;
+  --gray-color: rgba(255, 255, 255, 0.25);
 }
 
 * {

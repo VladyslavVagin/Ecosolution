@@ -9,21 +9,20 @@ export const LinkBtn = styled.a`
   align-items: center;
   justify-content: center;
   column-gap: 12px;
+  padding-top: 2px;
   border-radius: 500px;
 
   svg {
-    transform: rotate(135deg);
-    fill: none;
+    margin-top: -2px;
+    fill: var(--main-dark);
     stroke: var(--main-dark);
-    background: var(--main-dark);
-    border-radius: 50%;
   }
 
   @media screen and (min-width: 1280px) {
     transition: all var(--hover-effect);
 
     svg {
-      transition: all var(--hover-effect);
+      transition: fill var(--hover-effect);
     }
 
     &:hover {
@@ -31,7 +30,7 @@ export const LinkBtn = styled.a`
       color: var(--accent-color);
 
       svg {
-        background: var(--accent-color);
+        fill: var(--accent-color);
       }
     }
   }

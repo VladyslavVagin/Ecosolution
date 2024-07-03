@@ -6,8 +6,8 @@ const Button = ({ text, link }) => {
   return (
     <LinkBtn href={link}>
       <p>{text}</p>
-        <svg width={16} height={16}>
-          <use xlinkHref={`${sprite}#arrow-rightup`}></use>
+        <svg width={15} height={15}>
+          <use xlinkHref={`${sprite}#icon-btn-arrow-down`}></use>
         </svg>
     </LinkBtn>
   );

@@ -20,6 +20,28 @@ export const CloseBtn = styled.button`
   font-weight: 400;
   letter-spacing: -0.04em;
   padding: 0;
+
+  svg {
+    stroke: var(--white-color);
+  }
+
+  @media screen and (min-width: 1280px) {
+    column-gap: 0;
+    font-size: 16px;
+    transition: color var(--hover-effect);
+
+    svg {
+      transition: stroke var(--hover-effect);
+    }
+
+    &:hover {
+      color: var(--accent-color);
+    
+      svg {
+        stroke: var(--accent-color);
+      }
+    }
+  }
 `;
 
 export const SocialMediaBox = styled.div`

@@ -33,7 +33,7 @@ export const InfoContainer = styled.div`
     margin-top: 12px;
     margin-bottom: 36px;
 
-    a {
+    > a {
       margin-left: 154px;
     }
   }

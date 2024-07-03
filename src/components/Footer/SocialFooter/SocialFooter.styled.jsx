@@ -7,7 +7,7 @@ export const GeneralContainer = styled.div`
   row-gap: 24px;
   letter-spacing: -0.04em;
 
-  div {
+  div, address {
     a {
       color: var(--main-dark);
     }

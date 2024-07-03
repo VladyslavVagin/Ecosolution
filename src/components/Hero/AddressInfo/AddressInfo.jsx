@@ -1,14 +1,23 @@
-import React from 'react';
-import { InfoContainer } from './AddressInfo.styled';
+import React from "react";
+import { InfoContainer } from "./AddressInfo.styled";
 
 const AddressInfo = () => {
   return (
-   <InfoContainer>
-       <address>79005, Ukraine, Lvivstreet. Shota Rustaveli, 7</address>
-       <a href="mailto:office@ecosolution.com">office@ecosolution.com</a>
-       <p>ecosolution &copy; 2023</p>
-   </InfoContainer>
-  )
-}
+    <InfoContainer>
+      <address>
+        <a
+          href="https://maps.app.goo.gl/kbqRNic8UJtqqZdm7"
+          target="_blank"
+          rel="noreferrer"
+          aria-label="Show on Google Maps address of Ecosolution company"
+        >
+          79005, Ukraine, Lvivstreet. Shota Rustaveli, 7
+        </a>
+      </address>
+      <a href="mailto:office@ecosolution.com">office@ecosolution.com</a>
+      <p>ecosolution &copy; 2023</p>
+    </InfoContainer>
+  );
+};
 
-export default AddressInfo
+export default AddressInfo;
