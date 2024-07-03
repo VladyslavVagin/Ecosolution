@@ -1,4 +1,3 @@
-// @ts-nocheck
 import React from "react";
 import { cards } from "../../../data/cardsValues";
 import CardValue from "../CardValue/CardValue";

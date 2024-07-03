@@ -1,4 +1,3 @@
-// @ts-nocheck
 import React, { useState, useEffect } from "react";
 import { FlexContainer, Kilowatt, Numbers } from "./QualityEnergy.styled";
 

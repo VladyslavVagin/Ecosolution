@@ -5,6 +5,7 @@ import ContactForm from "./ContactForm/ContactForm";
 import { FlexContainer, Section } from "./ContactUs.styled";
 
 const ContactUs = () => {
+  
   const variants = {
     hidden: { opacity: 0, y: 150 },
     show: {

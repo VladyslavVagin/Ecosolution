@@ -1,4 +1,3 @@
-// @ts-nocheck
 import React, { useState, useEffect } from "react";
 import Logo from "./Logo/Logo";
 import BurgerBtn from "./BurgerBtn/BurgerBtn";

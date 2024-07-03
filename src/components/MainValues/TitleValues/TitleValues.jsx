@@ -1,4 +1,3 @@
-// @ts-nocheck
 import React from "react";
 import Title from "../../Common/Title/Title";
 import { TitleContainer } from "./TitleValues.styled";

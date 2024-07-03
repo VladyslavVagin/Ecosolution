@@ -7,6 +7,7 @@ import HeroImage from "./HeroImage/HeroImage.jsx";
 import { SectionHero, ContentHero, TextContainer } from "./Hero.styled.jsx";
 
 const Hero = () => {
+  
   const variants = {
     hidden: { opacity: 0, y: 150 },
     show: {

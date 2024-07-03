@@ -4,6 +4,7 @@ import QualityEnergy from "./QualityEnergy/QualityEnergy";
 import { SectionElectricity, VerticalLine } from "./Electricity.styled";
 
 const Electricity = () => {
+  
   const variants = {
     hidden: { opacity: 0, x: 150 },
     show: {

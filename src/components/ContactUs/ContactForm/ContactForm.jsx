@@ -14,7 +14,6 @@ const ContactForm = () => {
   } = useForm({ resolver: yupResolver(contactSchema), mode: "onBlur" });
 
   const onSubmit = (data) => {
-    console.log(data);
     toast.success("Your message has been sent!");
   };
 

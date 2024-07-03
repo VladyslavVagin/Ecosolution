@@ -1,4 +1,3 @@
-// @ts-nocheck
 import React, { useRef, useEffect } from "react";
 import { createPortal } from "react-dom";
 import { Backdrop, ModalContainer } from "./Modal.styled";

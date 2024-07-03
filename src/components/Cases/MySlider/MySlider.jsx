@@ -1,4 +1,3 @@
-// @ts-nocheck
 import React, { useState } from "react";
 import { useMediaQuery } from "react-responsive";
 import Slider from "react-slick";

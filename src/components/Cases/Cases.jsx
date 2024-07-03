@@ -4,6 +4,7 @@ import MySlider from "./MySlider/MySlider";
 import { Section } from "./Cases.styled";
 
 const Cases = () => {
+  
   const variants = {
     hidden: { opacity: 0, x: -150 },
     show: {

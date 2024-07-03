@@ -5,6 +5,7 @@ import ListValues from "./ListValues/ListValues";
 import { Section, TextContainer, TitleContainer } from "./MainValues.styled";
 
 const MainValues = () => {
+  
   const variants = {
     hidden: { opacity: 0, y: 150 },
     show: {
