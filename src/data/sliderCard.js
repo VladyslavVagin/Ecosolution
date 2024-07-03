@@ -1,8 +1,8 @@
-import imgSlide1 from "../images/slider/slide-1/slide-one-1x.webp";
-import imgSlide2 from "../images/slider/slide-2/slide-two-1x.webp";
-import imgSlide3 from "../images/slider/slide-3/slide-three-1x.webp";
-import imgSlide4 from "../images/slider/slide-4/slide-four-1x.webp";
-import imgSlide5 from "../images/slider/slide-5/slide-five-1x.webp";
+import imgSlide1 from "../images/slider/slide-1/slide-one.webp";
+import imgSlide2 from "../images/slider/slide-2/slide-two.webp";
+import imgSlide3 from "../images/slider/slide-3/slide-three.webp";
+import imgSlide4 from "../images/slider/slide-4/slide-four.webp";
+import imgSlide5 from "../images/slider/slide-5/slide-five.webp";
 
 // Normally we will insert in link the url of the project or web page of the company,
 // but for this example we will use web page of SoftRyzen company

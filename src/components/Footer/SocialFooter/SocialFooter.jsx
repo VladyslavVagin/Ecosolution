@@ -15,7 +15,7 @@ const SocialFooter = () => {
         </a>
       </address>
       <div>
-        <a href="mailto:office@ecosolution.com">office@ecosolution.com</a>
+        <a href="mailto:office@ecosolution.com" aria-label="Write and send email to EcoSolution">office@ecosolution.com</a>
       </div>
       <div>
         <p>ecosolution &copy; 2023</p>

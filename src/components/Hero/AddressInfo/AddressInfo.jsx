@@ -14,7 +14,7 @@ const AddressInfo = () => {
           79005, Ukraine, Lvivstreet. Shota Rustaveli, 7
         </a>
       </address>
-      <a href="mailto:office@ecosolution.com">office@ecosolution.com</a>
+      <a href="mailto:office@ecosolution.com" aria-label="Write and send email to EcoSolution">office@ecosolution.com</a>
       <p>ecosolution &copy; 2023</p>
     </InfoContainer>
   );

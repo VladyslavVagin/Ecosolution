@@ -15,7 +15,7 @@ const Menu = ({ fn }) => {
           spy={true}
           smooth={true}
           offset={-70}
-          duration={200}
+          duration={400}
           key={link.id}
           onClick={() => fn(false)}
         >

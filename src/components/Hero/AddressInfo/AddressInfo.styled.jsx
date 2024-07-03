@@ -33,6 +33,14 @@ export const InfoContainer = styled.div`
     margin-top: 12px;
     margin-bottom: 36px;
 
+    a {
+      transition: color var(--hover-effect);
+
+      &:hover {
+        color: var(--accent-color);
+      }
+    }
+
     > a {
       margin-left: 154px;
     }

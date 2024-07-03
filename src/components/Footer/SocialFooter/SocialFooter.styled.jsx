@@ -7,7 +7,8 @@ export const GeneralContainer = styled.div`
   row-gap: 24px;
   letter-spacing: -0.04em;
 
-  div, address {
+  div,
+  address {
     a {
       color: var(--main-dark);
     }
@@ -19,6 +20,17 @@ export const GeneralContainer = styled.div`
   }
 
   @media screen and (min-width: 1280px) {
+    address,
+    div {
+      a {
+        transition: color var(--hover-effect);
+
+        &:hover {
+          color: var(--accent-color);
+        }
+      }
+    }
+
     div {
       a {
         margin-left: 202px;
