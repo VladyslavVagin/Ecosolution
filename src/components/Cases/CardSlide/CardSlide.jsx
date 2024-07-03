@@ -11,7 +11,7 @@ const CardSlide = ({ card }) => {
 
   return (
     <SlideContainer>
-      <img src={img} alt={title} loading='lazy'/>
+      <img src={img} alt={title} />
       <SlideContent>
         <p>{description}</p>
         <a
